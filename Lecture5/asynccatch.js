@@ -12,6 +12,7 @@ async function msg() {
         console.log(msg);
     } catch (err) {
         console.log(err);
+        console.log(err);
     }
 }
 
