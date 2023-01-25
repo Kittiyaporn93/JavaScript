@@ -11,7 +11,7 @@ async function msg() {
         const msg = await yayOrNay();
         console.log(msg);
     } catch (err) {
-        console.log(err);
+        console.log(errr);
     }
 }
 
