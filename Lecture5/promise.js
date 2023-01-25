@@ -3,11 +3,11 @@ function promiseTimrout(ms) {
         setTimeout(resolve, ms);
     });
 }
-
-promiseTimeout(2000)
+console.log('Strat');
+promiseTimrout(2000)
     .then(() => {
         console.log("Done!!");
-        return promiseTimeout(1000);
+        return promiseTimrout(1000);
     })
     .then(() => {
         console.log("Also done!!");
@@ -19,3 +19,4 @@ promiseTimeout(2000)
     .catch(() => {
         console.log("Error!")
     });
+console.log('End');
