@@ -9,3 +9,4 @@ console.log(printHello.name)
 //2.Function Invocation
 let result = printHello("Anirach !");
 console.log(result);
+console.log(result);
